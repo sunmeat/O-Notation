@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Функция для проверки простоты числа (неоптимизированная!!!)
+// функція для перевірки простоти числа (неоптимізована!)
 bool is_prime(int num)
 {
     if (num <= 1) return false;
@@ -12,7 +12,7 @@ bool is_prime(int num)
     return true;
 }
 
-// Функция для нахождения суммы простых чисел до N
+// функція знаходження суми простих чисел до N
 int sum_of_primes(int N)
 {
     int sum = 0;
@@ -32,4 +32,5 @@ int main()
     int N = 100;
     int result = sum_of_primes(N);
     cout << "\b\b= " << result << "\n";
+
 }
